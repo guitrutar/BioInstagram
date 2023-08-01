@@ -1,0 +1,42 @@
+/* WIDHT: 360PX */
+@media screen and (max-width: 360px) {
+  .bio {
+    max-width: 300px;
+  }
+}
+
+/* WIDHT: 393PX */
+@media screen and (max-width: 393px) {
+  .bio {
+    max-width: 300px;
+  }
+}
+
+/* WIDHT: 412PX */
+@media screen and (max-width: 412px) {
+  .bio {
+    max-width: 300px;
+  }
+}
+
+/* WIDHT: 320PX */
+@media screen and (max-width: 320px) {
+  .bio {
+    position: relative;
+    top: 10px;
+  }
+}
+
+/* WIDHT: 414PX */
+@media screen and (max-width: 414px) {
+  .bio {
+    max-width: 370px;
+  }
+}
+
+/* WIDHT: 375PX */
+@media screen and (max-width: 375px) {
+  .bio {
+    max-width: 300px;
+  }
+}

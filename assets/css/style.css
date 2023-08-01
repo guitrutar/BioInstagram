@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+/* TAG: DIV - BIOGRAFIA */
+
+.bio {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+  background-color: #006eff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 50px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.logo {
+  width: 25%;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #f0f0f0;
+}
+
+.social-links a {
+  color: #f0f0f0;
+  background-color: #003376;
+  padding: 10px;
+  position: relative;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.social-links a:hover {
+  background: linear-gradient(45deg, #003376, #003e8f, #0052be, #005fdc, #003376);
+  background-size: 400% 100%;
+  animation: degrade 10s linear infinite alternate;
+  box-shadow: 3px 6px 8px #00367c;
+}
+
+@keyframes degrade {
+  0% {
+      background-position-x: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+}
+
+.social-links a i {
+  font-size: 1.3em;
+  position: relative;
+  right: 10px;
+  color: #ffffff;
+  top: 1px;
+}
+
+.bio footer a {
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #00214b;
+  transition: 0.3s ease-in-out;
+}
+
+.bio footer {
+  color: #fff;
+}
